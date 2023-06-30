@@ -1,0 +1,34 @@
+body {
+  /* font-family é herdada p/ os descendentes*/
+  /* fallback = caso a fonte falhe, ele aplica uma padrão do sistema */
+  font-family: "Lato", sans-serif;
+  background-color: chocolate; /* não-herdada*/
+  color: white; /* herdada */
+}
+
+.codigo {
+  font-family: monospace;
+  color: blue;
+}
+
+/* Prioridade = CSS define quais propriedades
+serão aplicadas ou sobrescritas
+
+inline > tag style > arquivo externo
+atributo style > #id > .classe > seletor de tipo
+*/
+
+h1,
+h2,
+h3 {
+  background-color: brown;
+  text-decoration: line-through;
+}
+
+.custom-h1 {
+  background-color: blue;
+}
+
+#meu-h1 {
+  background-color: chartreuse;
+}
