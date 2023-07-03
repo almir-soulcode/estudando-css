@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.inline {
+  display: inline-block;
+  width: 100px;
+  height: 200px;
+}
+
+.none {
+  display: none;
+}
+
+h1 {
+  background-color: red;
+  text-align: center;
+}
+
+a {
+  background-color: red;
+  display: block;
+  text-align: center;
+}
+
+/* Display: 
+display: block -> ocupa toda a largura, e quebra linha no final
+display: inline -> ocupar apenas o necessário, e não quebra linha,
+não obedece width e height
+display: none -> elemento não será exibido
+*/
