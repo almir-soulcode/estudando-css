@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://soulcodeacademy.org/assets/images/logo/light-logo.png"),
+    url("https://soulcodeacademy.org/assets/images/logo/light-logo.png");
+  /* no-repeat repeat-x repeat-y*/
+  background-repeat: no-repeat;
+  /* bottom right top left center */
+  background-position: center, top;
+  /* acompanha o scroll */
+  background-attachment: fixed, scroll;
+  background-size: 300px, 200px; /* define a largura e altura será automatica */
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+  background-color: blueviolet;
+  border-radius: 50%;
+  background-image: url("https://thispersondoesnotexist.com/");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
