@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  /* todos os elementos recebem estas propriedades */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1604147706283-d7119b5b822c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80");
+}
+
+main {
+  padding: 16px 32px;
+}
+
+.blog-secao {
+  margin: 16px 0;
+}
+
+.blog-secao h2 {
+  text-align: center;
+}
+
+.blog-secao p {
+  text-align: justify;
+}
+
+.btn {
+  background-color: #329f5b;
+  border: 0;
+  padding: 8px 12px;
+  margin: 4px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+}
+
+/* :hover = quando o mouse está sobre o elemento */
+
+.btn:hover {
+  /* aplica estas estilizações quando o mouse está em cima */
+  background-color: #36213e;
+  color: white;
+}
+
+.material-symbols-outlined {
+  font-size: 14px;
+}
+
+.navegacao ul {
+  background-color: #36213e;
+  text-align: center;
+}
+
+.navegacao li {
+  display: inline-block;
+}
+
+.navegacao a {
+  color: white;
+  /* line-through (tachado), underline (sublinhado) */
+  text-decoration: none;
+  display: inline-block; /* para o padding funcionar */
+  padding: 12px 8px;
+}
+
+.navegacao a:hover {
+  color: #329f5b;
+}
