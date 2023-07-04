@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elementos customizados</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Estilizando botões -->
+    <button class="btn">
+      Buy <span class="material-symbols-outlined">shopping_bag</span>
+    </button>
+
+    <button class="btn sec">
+      Criar <span class="material-symbols-outlined"> add_reaction </span>
+    </button>
+    <hr />
+
+    <!-- Estilizando tabela -->
+    <table class="tabela">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Email</th>
+          <th>Departamento</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>José Carlos</td>
+          <td>jose.carlos@empresa.com</td>
+          <td>TI</td>
+        </tr>
+        <tr>
+          <td>Ana Silva</td>
+          <td>ana.silva@empresa.com</td>
+          <td>Vendas</td>
+        </tr>
+        <tr>
+          <td>Pedro Oliveira</td>
+          <td>pedro.oliveira@empresa.com</td>
+          <td>Recursos Humanos</td>
+        </tr>
+        <tr>
+          <td>Maria Santos</td>
+          <td>maria.santos@empresa.com</td>
+          <td>Marketing</td>
+        </tr>
+        <tr>
+          <td>Carlos Pereira</td>
+          <td>carlos.pereira@empresa.com</td>
+          <td>Financeiro</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Estilizando hr -->
+    <hr />
+
+    <!-- Estilizando formulário -->
+    <form class="formulario">
+      <div class="grupo">
+        <label for="campo_nome">Nome</label>
+        <input id="campo_nome" type="text" name="nome" required />
+      </div>
+      <div class="grupo">
+        <label for="campo_email">Email</label>
+        <input id="campo_email" type="email" name="email" required />
+      </div>
+      <div class="grupo">
+        <label>Departamento</label>
+        <select id="campo_dep" required>
+          <option disabled selected value="">Selecione um departamento</option>
+          <option value="TI">TI</option>
+          <option value="Vendas">Vendas</option>
+          <option value="Recursos Humanos">Recursos Humanos</option>
+          <option value="Marketing">Marketing</option>
+          <option value="Financeiro">Financeiro</option>
+        </select>
+      </div>
+      <button class="btn">Adicionar</button>
+      <button class="btn" type="reset">Limpar</button>
+    </form>
+  </body>
+</html>
