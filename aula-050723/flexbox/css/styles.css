@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container-1 {
+  background-color: brown;
+  /* padding: 12px; */
+  /* ativa o flexbox */
+  display: flex;
+  /* row, column = direção que os elementos são distribuídos */
+  flex-direction: row;
+  /* nowrap, wrap = indica se pode quebrar linha se não houver espaço */
+  flex-wrap: wrap;
+  /* flex-flow: row wrap;  atalho para flex-direction e flex-wrap */
+  /* start, end, center, space-between, space-around, space-evenly */
+  justify-content: space-around; /* ajustar os elementos no eixo main */
+  /* stretch, flex-start, flex-end, center = ajustar os elementos no eixo cross */
+  align-items: center;
+  /* space-between, space-around, center, flex-start, flex-end */
+  /* align-content: space-between; */
+
+  height: 600px;
+}
+
+.item-1 {
+  background-color: orange;
+}
+
+.item-2 {
+  background-color: greenyellow;
+}
+
+.item-3 {
+  background-color: gold;
+  /* flex-start, flex-end, center, stretch */
+  align-self: flex-end; /* alinhar no eixo cross individualmente */
+}
+
+.item-4 {
+  background-color: hotpink;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4 {
+  width: 200px;
+  padding: 8px;
+}
