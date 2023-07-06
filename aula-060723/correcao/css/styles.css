@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: teal;
+}
+
+.section-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section-card {
+  background-color: wheat;
+  width: 480px;
+  margin: 16px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.section-card img {
+  width: 200px;
+}
+
+.section-card p {
+  text-align: justify;
+}
+
+@media screen and (max-width: 767px) {
+  .section-card {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .section-card img {
+    width: 100%;
+  }
+
+  .section-card p {
+    padding: 16px;
+  }
+}
+
+.caixa {
+  height: 200px;
+  width: 200px;
+  background-color: orange;
+  /* hidden, scroll, auto */
+  overflow: auto;
+}
