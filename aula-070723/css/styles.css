@@ -1,0 +1,7 @@
+.custom {
+  background-color: hotpink;
+}
+
+#carouselExample .carousel-inner {
+  height: 200px;
+}
